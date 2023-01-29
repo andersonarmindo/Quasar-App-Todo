@@ -6,7 +6,8 @@
   "author": "Anderson Armindo João <andersonarmindojoao@outlook.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "deploy": "push-dir --dir=dist/spa --remote=gh-pages --branch=master"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -14,7 +15,8 @@
     "quasar": "^1.0.0"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0"
+    "@quasar/app": "^2.0.0",
+    "push-dir": "^0.4.1"
   },
   "browserslist": [
     "last 10 Chrome versions",
