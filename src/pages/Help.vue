@@ -1,6 +1,6 @@
 <template>
   <q-page class="q-pa-lg">
-    <h5 class="q-mt-none">Help</h5>
+    <h6 class="q-mt-none">App desenvolvida por Anderson Armindo.</h6>
   </q-page>
 </template>
 
